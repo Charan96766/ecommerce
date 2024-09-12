@@ -1,0 +1,56 @@
+.filter {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .filter label {
+    font-size: 16px;
+  }
+  
+  .filter select {
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .product-card h3 {
+    font-size: 18px;
+  }
+  
+  .product-card p {
+    font-size: 14px;
+  }
+  
+  .product-card button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .product-card button:hover {
+    background-color: #575757;
+  }
+  
